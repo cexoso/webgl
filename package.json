@@ -1,0 +1,24 @@
+{
+  "name": "webgl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "raw-loader": "^0.5.1",
+    "webpack": "^2.4.1"
+  },
+  "dependencies": {
+    "@types/node": "^7.0.14",
+    "html-webpack-plugin": "^2.28.0",
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.3.2",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
